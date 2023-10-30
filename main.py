@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 
-video = cv2.VideoCapture("green.mp4")
-image = cv2.imread("bg.jpg")
+video = cv2.VideoCapture("green.mp4") #video with green background
+image = cv2.imread("bg.jpg") #image that is going to be replace the greenscreen
 
 while True:
     ret, frame = video.read()
